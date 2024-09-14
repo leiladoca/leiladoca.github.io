@@ -1,0 +1,101 @@
+/* styles.css */
+body {
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(249, 249, 189); /* Yellow background */
+}
+
+header {
+    background-color: #95f89a;
+    color: rgb(3, 100, 18);
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+    text-decoration: wavy;
+}
+
+.description {
+    text-align: center;
+    margin: 10px 0; /* Reduced margin */
+}
+
+.description h2 {
+    margin: 20px;
+    font-size: 1.5rem;
+}
+
+.description p {
+    margin: 5px 0 10px; /* Reduced margin */
+    font-size: 1rem;
+}
+
+.social-media {
+    margin: 20px 0; /* Margin for spacing */
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.social-media img {
+    width: 60px; /* Size of the social media icon */
+    height: auto;
+}
+
+.social-media button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #b8ffb5;
+    color: rgb(25, 98, 31);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.social-media button:hover {
+    background-color: #e3a762;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+    max-width: 1200px;
+    justify-items: center; /* Center items horizontally */
+}
+
+.gallery-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(253, 248, 175); /* White background for cards */
+    border: 2px solid #f0e568; /* Border around cards */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    overflow: hidden;
+    text-align: center;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+.gallery-item img:hover {
+    transform: scale(1.1);
+}
+
+.gallery-item p {
+    margin: 10px 0;
+    padding: 0 10px;
+    color: brown;
+}

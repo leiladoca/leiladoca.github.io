@@ -1,0 +1,63 @@
+body {
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f6bafb; 
+}
+
+header {
+    background-color: #800998;
+    color: white;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+}
+
+.description {
+    text-align: center;
+    margin: 10px 0; /* Reduced margin */
+}
+
+.description h2 {
+    margin: 20px;
+    font-size: 1.5rem;
+}
+
+.description p {
+    margin: 5px 0 10px; /* Reduced margin */
+    font-size: 1rem;
+}
+
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Reduced gap between buttons */
+    margin-top: 20px; 
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    background-color: #800998;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #480651;
+}
+
+.tenor-gif-embed img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
